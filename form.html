@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesht.css">
+    <script src="./objectallocandfetch.js"></script>
+
+    <title>New Data entry Form</title>
+</head>
+<body>
+    <h1 class="text_style_sheet"> New Stockist Details</h1>
+    
+    <fieldset>
+      <Legend style="font-size:large;">New Entry</Legend>
+    <form name="newentry" id="newentry" action="" onsubmit="handleSubmit(event)" method="post">
+
+        <ul class="style_for_formm" type="none">
+
+        <li>Stockist ID: <input style="font-size: medium;"
+        type="text"
+        required
+        id="Stockist_ID"
+        name="Stockist_ID"
+        placeholder="Enter your StockistID"
+      /></li><br />
+
+      <li>Stockist Name: <input style="font-size:medium;"
+        type="text"
+        required
+        id="Stockist_Name"
+        name="Stockist_Name"
+        placeholder="Enter your username"
+      /></li> <br />
+
+      <li>
+        Address: <input
+      style="font-size:medium;"
+      id="Address"
+      required
+        type="textarea"
+        name="Address"
+        placeholder="Enter your Address"
+        />
+      </li><br />
+
+      <li>
+        Company Name: <input style="font-size:medium;"
+        type="textarea"
+        required
+        id="Company_Name"
+        name="Company_Name"
+        placeholder="Enter your company name"
+      />
+      </li><br />
+
+      <li>
+      Phone NO.: <input style="font-size:medium;"
+      id="Phone_No"
+      required
+      type="text"
+      name="Phone_No"
+      placeholder="Enter your Phone number"
+    />
+      </li><br />
+
+    </ul> 
+      <button style="font-size: medium; margin-left: 60px;"  type="submit">Submit</button>
+      <button style="font-size: medium; margin-left: 80px;" type="reset" >Reset</button>
+
+    </form>
+    </fieldset>
+</body>
+</html>
